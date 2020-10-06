@@ -1,0 +1,6 @@
+//unit-impulse signal
+L = 5;
+x1 = [zeros(1,L) 1 zeros(1,L)];
+nx1 = -L:L;
+subplot(2,2,1)
+plot2d3(nx1,x1)
