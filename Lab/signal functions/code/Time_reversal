@@ -1,9 +1,0 @@
-//time reversal
-
-clear;clc;close;
-n = input('Enter the range of sequance:= ');
-x = input('Enter the input sequance:= ');
-subplot(2,1,1);
-plot2d3(n,x);
-subplot(2,1,2);
-plot2d3(-n,x);
